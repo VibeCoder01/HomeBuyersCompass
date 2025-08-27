@@ -86,7 +86,7 @@ export const checklistData = [
       'Work out your budget (deposit, fees, searches, survey, removals, Stamp Duty).',
       'Get a Decision/Affirmation in Principle (AIP/DIP) from a lender or mortgage broker.',
       'Choose and instruct a conveyancer/solicitor.',
-      'Complete your solicitor\'s initial ID, anti-money laundering (AML), and source-of-funds checks.',
+      "Complete your solicitor's initial ID, anti-money laundering (AML), and source-of-funds checks.",
       'Research and shortlist RICS surveyors.',
     ],
   },
@@ -106,7 +106,7 @@ export const checklistData = [
       'Book your chosen RICS Level 2 or Level 3 survey.',
       'Review the draft contract pack from the seller’s solicitor.',
       'Review all search results (Local Authority, Water, Environmental) with your solicitor.',
-      'Review your solicitor\'s report on title and enquiries.',
+      "Review your solicitor's report on title and enquiries.",
       'Review your mortgage offer and its conditions.',
       'Review and agree on the TA10 (Fittings & Contents) form.',
       'Agree on a completion date with the seller through the solicitors.',
@@ -180,7 +180,7 @@ export const documentsData = [
   },
   {
     title: 'Mortgage Deed',
-    description: 'The legal document you sign to create the mortgage on the property. It is sent to the Land Registry to register the lender\'s interest.',
+    description: "The legal document you sign to create the mortgage on the property. It is sent to the Land Registry to register the lender's interest.",
   },
   {
     title: 'TR1 - Transfer Deed',
@@ -192,7 +192,7 @@ export const documentsData = [
   },
   {
     title: 'Title Information Document',
-    description: 'The official proof of your ownership from HM Land Registry, received months after completion. It shows your name and the lender\'s mortgage charge.',
+    description: "The official proof of your ownership from HM Land Registry, received months after completion. It shows your name and the lender's mortgage charge.",
   },
   {
     title: 'EPC - Energy Performance Certificate',
@@ -236,13 +236,13 @@ export const contactsData = [
     role: 'RICS Surveyor',
     icon: Compass,
     responsibilities: [
-      'Conducts an independent, in-depth survey of the property\'s condition (Level 2 or 3).',
-      'Provides a detailed report on any defects or issues, which is separate from the lender\'s valuation.',
+      "Conducts an independent, in-depth survey of the property's condition (Level 2 or 3).",
+      "Provides a detailed report on any defects or issues, which is separate from the lender's valuation.",
       'You instruct them directly.',
     ],
   },
   {
-    role: 'Seller\'s Solicitor',
+    role: "Seller's Solicitor",
     icon: FileText,
     responsibilities: [
       'Acts for the seller.',
@@ -264,65 +264,54 @@ export const contactsData = [
 export const glossaryData = [
   {
     term: 'Freehold',
-    definition: 'Outright ownership of the property and the land it stands on for an unlimited period.',
+    definition: 'Full ownership of the property and the land it sits on, for an unlimited time. You are responsible for all maintenance. Most houses are freehold. Compare with Leasehold, common for flats.',
+  },
+  {
+    term: 'Leasehold',
+    definition: 'You own the property for a fixed period (the term of the lease) but not the land it\'s on. Common for flats. You\'ll have a landlord (the freeholder) and likely pay ground rent and service charges. GOTCHA: Check the lease length! Leases under 80 years can be hard to get a mortgage on and expensive to extend.',
   },
   {
     term: 'Conveyancing',
-    definition: 'The legal process of transferring property ownership from the seller to the buyer, handled by a solicitor or licensed conveyancer.',
+    definition: 'The essential legal work to transfer property ownership. A solicitor or licensed conveyancer does this. They handle contracts, searches, and the movement of money. MUST KNOW: Choose your conveyancer early to avoid delays. A good one is worth their weight in gold.',
   },
   {
-    term: 'Decision in Principle (DIP)',
-    definition: 'A preliminary confirmation from a lender of how much they might be willing to lend you. Also known as an Agreement in Principle (AIP).',
+    term: 'Decision in Principle (DIP/AIP)',
+    definition: 'A lender\'s estimate of what they might lend you, based on initial checks. Not a formal mortgage offer. MUST KNOW: Having one makes you a more attractive buyer as it shows you are serious and can likely secure the necessary funds.',
   },
   {
     term: 'Searches',
-    definition: 'Enquiries made by your solicitor to various authorities (e.g., Local Council, Water Authority) to check for any issues affecting the property.',
+    definition: 'Checks your solicitor makes with various authorities. They are crucial for uncovering hidden issues. They are split into mandatory and optional searches. Mandatory searches for a mortgage lender usually include: <ul><li class="my-2 ml-4"><strong>Local Authority Search (LLC1, CON29):</strong> Reveals planning permissions, building control history, nearby road schemes, and whether the property is in a conservation area.</li><li class="my-2 ml-4"><strong>Water and Drainage Search (CON29DW):</strong> Shows who owns the sewers and whether the property is connected to public systems.</li><li class="my-2 ml-4"><strong>Environmental Search:</strong> Checks for contaminated land, flood risk, and ground stability issues.</li></ul> Optional searches depend on location and property type: <ul><li class="my-2 ml-4"><strong>Chancel Repair Liability Search:</strong> Checks if you could be liable for church roof repairs. Now rare, but cheap to check.</li><li class="my-2 ml-4"><strong>Mining Search:</strong> Essential in former mining areas to check for subsidence risk.</li></ul> GOTCHA: Searches can take weeks to come back and can reveal deal-breaking information. Your solicitor advises on what is needed.',
   },
   {
     term: 'Enquiries',
-    definition:
-      'Questions raised by your solicitor to the seller\'s solicitor to clarify information in the draft contract, TA6 form, or search results.',
+    definition: 'Specific questions your solicitor asks the seller\'s solicitor after reviewing the contract, TA6 form, and searches. This is where detail is crucial. Examples: "The boiler service history is missing, please provide it." or "Who is responsible for the boundary fence on the left?"',
   },
   {
     term: 'Exchange of Contracts',
-    definition:
-      'The point at which signed contracts are exchanged between solicitors, making the deal legally binding. You pay a deposit and the completion date is fixed.',
+    definition: 'The moment the deal becomes legally binding. Solicitors swap signed contracts, you pay a deposit (usually 10%), and the completion date is set. GOTCHA: If you pull out after exchange, you lose your deposit and can be sued for other costs. There is no going back!',
   },
   {
     term: 'Completion',
-    definition:
-      'The final stage where the seller receives the money, ownership is transferred to you, and you get the keys.',
+    definition: 'The day the money is transferred, ownership officially passes to you, and you get the keys! MUST KNOW: Completion can happen any time on the day. Don\'t expect keys at 9am sharp; it depends on the banks.',
   },
   {
     term: 'Stamp Duty Land Tax (SDLT)',
-    definition: 'A tax paid to the government on property purchases over a certain value. Your solicitor calculates and pays this for you.',
+    definition: 'A government tax on property purchases. The amount depends on the price and whether you are a first-time buyer. Your solicitor handles the calculation and payment on your behalf post-completion.',
   },
   {
-    term: 'Mortgage Valuation',
-    definition:
-      'A basic survey conducted by the lender to confirm the property is worth the amount you want to borrow. It is for the lender\'s benefit, not yours, and is not a detailed condition survey.',
-  },
-  {
-    term: 'RICS Survey (Level 2 or 3)',
-    definition:
-      'A detailed inspection of the property’s condition, which you commission for your own peace of mind. A Level 2 (HomeBuyer Report) is for conventional properties in reasonable condition; a Level 3 (Building Survey) is for older, larger, or more complex properties.',
+    term: 'Mortgage Valuation vs. RICS Survey',
+    definition: 'These are different! The <strong>Mortgage Valuation</strong> is for the lender to confirm the property is worth what you\'re borrowing. It is brief and not for you. A <strong>RICS Survey (Level 2 or 3)</strong> is for YOU. You pay for it separately to get a detailed report on the property\'s condition. MUST KNOW: Never rely on the lender\'s valuation as a condition survey. Always get your own independent survey.',
   },
   {
     term: 'Indemnity Insurance',
-    definition:
-      'An insurance policy taken out to protect against a specific potential legal problem with a property, such as a lack of planning permission for an extension. Often paid for by the seller.',
-  },
-  {
-    term: 'Gazumping',
-    definition: 'When a seller accepts your offer but then accepts a higher offer from another buyer before contracts are exchanged.',
-  },
-  {
-    term: 'Title Deeds',
-    definition:
-      'Legal documents proving ownership of a property. Nowadays, this information is stored electronically at HM Land Registry.',
+    definition: 'An insurance policy to protect against a specific legal defect, e.g., lack of building regulations for an old extension. It protects the lender and you from financial loss if the issue causes problems later. GOTCHA: It\'s a sticking plaster, not a fix. The problem still exists. The seller often pays for this to push the sale through.',
   },
   {
     term: 'Memorandum of Sale',
-    definition: 'A document prepared by the estate agent that confirms the property sale has been agreed, subject to contract. It includes details of the buyer, seller, their solicitors, and the agreed price.',
+    definition: 'A document from the estate agent confirming the agreed price and details of the buyer, seller, and their solicitors. It is not legally binding but gets the formal legal process started.',
+  },
+  {
+    term: 'Title Deeds',
+    definition: 'Legal documents proving ownership. Most are now digital, held by HM Land Registry. The "Title Information Document" is the modern equivalent, showing the owner and any mortgage charges.',
   },
 ];

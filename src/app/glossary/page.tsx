@@ -18,11 +18,14 @@ export default function GlossaryPage() {
       <Accordion type="multiple" className="w-full">
         {glossaryData.map((entry) => (
           <AccordionItem key={entry.term} value={entry.term}>
-            <AccordionTrigger className="text-lg font-semibold hover:no-underline">
+            <AccordionTrigger className="text-lg font-semibold hover:no-underline text-left">
               {entry.term}
             </AccordionTrigger>
             <AccordionContent>
-              <p className="text-base text-muted-foreground">{entry.definition}</p>
+              <div
+                className="text-base text-muted-foreground prose"
+                dangerouslySetInnerHTML={{ __html: entry.definition }}
+              ></div>
             </AccordionContent>
           </AccordionItem>
         ))}
