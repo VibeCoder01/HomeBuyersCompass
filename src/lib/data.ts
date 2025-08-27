@@ -264,11 +264,11 @@ export const contactsData = [
 export const glossaryData = [
   {
     term: 'Freehold',
-    definition: `Full ownership of the property and the land it sits on, for an unlimited time. You are responsible for all maintenance. Most houses are freehold. Compare with Leasehold. For more, see the <a href="https://hoa.org.uk/advice/guides-for-homeowners/i-am-buying/freehold-v-leasehold/" target="_blank" rel="noopener noreferrer">HomeOwners Alliance guide</a>.`,
+    definition: `Full ownership of the property and the land it sits on, for an unlimited time. You are responsible for all maintenance. Most houses are freehold. Compare with Leasehold. The government's comprehensive <a href="https://www.gov.uk/government/publications/how-to-buy-a-home" target="_blank" rel="noopener noreferrer">"How to buy a home" guide</a> is a great starting point.`,
   },
   {
     term: 'Leasehold',
-    definition: `You own the property for a fixed period (the term of the lease) but not the land it's on. Common for flats. You'll have a landlord (the freeholder) and likely pay ground rent and service charges. GOTCHA: Check the lease length! Leases under 80 years can be hard to get a mortgage on and expensive to extend. The government's <a href="https://www.gov.uk/leasehold-property" target="_blank" rel="noopener noreferrer">leasehold guide</a> is essential reading.`,
+    definition: `You own the property for a fixed period (the term of the lease) but not the land it's on. Common for flats. You'll have a landlord (the freeholder) and likely pay ground rent and service charges. GOTCHA: Check the lease length! Leases under 80 years can be hard to get a mortgage on and expensive to extend. The government's <a href="https://www.gov.uk/leasehold-property" target="_blank" rel="noopener noreferrer">leasehold property guide</a> is essential reading.`,
   },
   {
     term: 'Conveyancing',
@@ -276,11 +276,11 @@ export const glossaryData = [
   },
   {
     term: 'Decision in Principle (DIP/AIP)',
-    definition: `A lender's estimate of what they might lend you, based on initial checks. Not a formal mortgage offer. MUST KNOW: Having one makes you a more attractive buyer as it shows you are serious and can likely secure the necessary funds. Read more at the government's <a href="https://www.citizensadvice.org.uk/debt-and-money/mortgages/getting-a-mortgage/mortgages-agreements-in-principle/" target="_blank" rel="noopener noreferrer">Citizens Advice Bureau</a>.`,
+    definition: `A lender's estimate of what they might lend you, based on initial checks. Not a formal mortgage offer. MUST KNOW: Having one makes you a more attractive buyer as it shows you are serious and can likely secure the necessary funds. The <a href="https://www.fca.org.uk/consumers/mortgages" target="_blank" rel="noopener noreferrer">Financial Conduct Authority (FCA)</a> provides consumer information on mortgages.`,
   },
   {
     term: 'Searches',
-    definition: `Checks your solicitor makes with various authorities. They are crucial for uncovering hidden issues. They are split into mandatory and optional searches. Mandatory searches for a mortgage lender usually include: <ul><li class="my-2 ml-4"><strong>Local Authority Search (LLC1, CON29):</strong> Reveals planning permissions, building control history, nearby road schemes, and whether the property is in a conservation area. You can find the relevant local council using the <a href="https://www.gov.uk/find-local-council" target="_blank" rel="noopener noreferrer">GOV.UK council finder</a>.</li><li class="my-2 ml-4"><strong>Water and Drainage Search (CON29DW):</strong> Shows who owns the sewers and whether the property is connected to public systems.</li><li class="my-2 ml-4"><strong>Environmental Search:</strong> Checks for contaminated land, flood risk, and ground stability issues. A solicitor will use a provider like <a href="https://www.landmark.co.uk/" target="_blank" rel="noopener noreferrer">Landmark</a> or <a href="https://www.groundsure.com/" target="_blank" rel="noopener noreferrer">Groundsure</a>.</li></ul> Optional searches depend on location and property type: <ul><li class="my-2 ml-4"><strong>Chancel Repair Liability Search:</strong> Checks if you could be liable for church roof repairs. Now rare, but cheap to check.</li><li class="my-2 ml-4"><strong>Mining Search:</strong> Essential in former mining areas to check for subsidence risk. Your solicitor will use a provider like the <a href="https://www.coalauthority.gov.uk/services/con29m-report/" target="_blank" rel="noopener noreferrer">Coal Authority</a> for this.</li></ul> GOTCHA: Searches are ordered by your solicitor, often through a third-party search provider which bundles them together. For example, the government's <a href="https://search-for-local-land-charges.service.gov.uk/local-land-charges" target="_blank" rel="noopener noreferrer">HM Land Registry's own search service</a> is expanding to cover more of England.`,
+    definition: `Checks your solicitor makes with various authorities. They are crucial for uncovering hidden issues. They are split into mandatory and optional searches. Mandatory searches for a mortgage lender usually include: <ul><li class="my-2 ml-4"><strong>Local Authority Search (LLC1, CON29):</strong> Reveals planning permissions, building control history, nearby road schemes, and whether the property is in a conservation area. Some of this data is being centralised on the <a href="https://www.gov.uk/government/collections/local-land-charges" target="_blank" rel="noopener noreferrer">HM Land Registry Local Land Charges service</a>.</li><li class="my-2 ml-4"><strong>Water and Drainage Search (CON29DW):</strong> Shows who owns the sewers and whether the property is connected to public systems. Your water company's responsibilities are outlined by <a href="https://www.ofwat.gov.uk/households/supply-and-standards/your-water-companys-responsibility/" target="_blank" rel="noopener noreferrer">Ofwat</a>.</li><li class="my-2 ml-4"><strong>Environmental Search:</strong> Checks for contaminated land, flood risk, and ground stability issues. You can do a basic check for flood risk yourself using the <a href="https://www.gov.uk/check-flood-risk" target="_blank" rel="noopener noreferrer">Environment Agency's flood map</a>.</li></ul> Optional searches depend on location and property type: <ul><li class="my-2 ml-4"><strong>Chancel Repair Liability Search:</strong> Checks if you could be liable for church roof repairs. Now rare, but cheap to check.</li><li class="my-2 ml-4"><strong>Mining Search:</strong> Essential in former mining areas to check for subsidence risk. Your solicitor will use a provider like the <a href="https://www.gov.uk/get-information-about-a-property" target="_blank" rel="noopener noreferrer">Coal Authority</a> for this.</li></ul> GOTCHA: Searches are ordered by your solicitor, often through a third-party search provider which bundles them together. For example, the government's <a href="https://search-for-local-land-charges.service.gov.uk/local-land-charges" target="_blank" rel="noopener noreferrer">HM Land Registry's own search service</a> is expanding to cover more of England.`,
   },
   {
     term: 'Enquiries',
@@ -288,7 +288,7 @@ export const glossaryData = [
   },
   {
     term: 'Exchange of Contracts',
-    definition: `The moment the deal becomes legally binding. Solicitors swap signed contracts, you pay a deposit (usually 10%), and the completion date is set. GOTCHA: If you pull out after exchange, you lose your deposit and can be sued for other costs. There is no going back!`,
+    definition: `The moment the deal becomes legally binding. Solicitors swap signed contracts based on the <a href="https://www.lawsociety.org.uk/topics/property/standard-conditions-of-sale" target="_blank" rel="noopener noreferrer">Law Society's Standard Conditions of Sale</a>, you pay a deposit (usually 10%), and the completion date is set. GOTCHA: If you pull out after exchange, you lose your deposit and can be sued for other costs. There is no going back!`,
   },
   {
     term: 'Completion',
@@ -296,11 +296,11 @@ export const glossaryData = [
   },
   {
     term: 'Stamp Duty Land Tax (SDLT)',
-    definition: `A government tax on property purchases. The amount depends on the price and whether you are a first-time buyer. Your solicitor handles the calculation and payment on your behalf post-completion. The definitive guide is on the <a href="https://www.gov.uk/stamp-duty-land-tax" target="_blank" rel="noopener noreferrer">GOV.UK website</a>.`,
+    definition: `A government tax on property purchases. The amount depends on the price and whether you are a first-time buyer. Your solicitor handles the calculation and payment on your behalf post-completion. The definitive guide is on the <a href="https://www.gov.uk/stamp-duty-land-tax/residential-property-rates" target="_blank" rel="noopener noreferrer">GOV.UK website</a>.`,
   },
   {
     term: 'Mortgage Valuation vs. RICS Survey',
-    definition: `These are different! The <strong>Mortgage Valuation</strong> is for the lender to confirm the property is worth what you're borrowing. It is brief and not for you. A <strong>RICS Survey (Level 2 or 3)</strong> is for YOU. You pay for it separately to get a detailed report on the property's condition. MUST KNOW: Never rely on the lender's valuation as a condition survey. Always get your own independent survey. Find a surveyor at <a href="https://www.rics.org/uk/find-a-member/" target="_blank" rel="noopener noreferrer">RICS</a>.`,
+    definition: `These are different! The <strong>Mortgage Valuation</strong> is for the lender to confirm the property is worth what you're borrowing. It is brief and not for you. A <strong>RICS Survey (Level 2 or 3)</strong> is for YOU. You pay for it separately to get a detailed report on the property's condition. MUST KNOW: Never rely on the lender's valuation as a condition survey. Always get your own independent survey. The <a href="https://www.rics.org/uk/consumers/home-surveys" target="_blank" rel="noopener noreferrer">Royal Institution of Chartered Surveyors (RICS)</a> provides detailed guidance.`,
   },
   {
     term: 'Indemnity Insurance',
@@ -308,10 +308,10 @@ export const glossaryData = [
   },
   {
     term: 'Memorandum of Sale',
-    definition: `A document from the estate agent confirming the agreed price and details of the buyer, seller, and their solicitors. It is not legally binding but gets the formal legal process started.`,
+    definition: `A document from the estate agent confirming the agreed price and details of the buyer, seller, and their solicitors. It is not legally binding but gets the formal legal process started. Estate agents must adhere to rules on providing "material information", overseen by <a href="https://www.nationaltradingstandards.uk/news/clarification-on-material-information-project/" target="_blank" rel="noopener noreferrer">National Trading Standards</a>.`,
   },
   {
     term: 'Title Deeds',
-    definition: `Legal documents proving ownership. Most are now digital, held by HM Land Registry. The "Title Information Document" is the modern equivalent, showing the owner and any mortgage charges. You can learn more at the <a href="https://www.gov.uk/government/organisations/land-registry" target="_blank" rel="noopener noreferrer">HM Land Registry</a> website.`,
+    definition: `Legal documents proving ownership. Most are now digital, held by HM Land Registry. The "Title Information Document" and "Title Plan" are the modern equivalent, showing the owner and any mortgage charges. You can learn more at the <a href="https://www.gov.uk/land-registry-title-plans" target="_blank" rel="noopener noreferrer">HM Land Registry</a> website.`,
   },
 ];
