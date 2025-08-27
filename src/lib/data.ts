@@ -272,11 +272,11 @@ export const glossaryData = [
   },
   {
     term: 'Conveyancing',
-    definition: `The essential legal work to transfer property ownership. A solicitor or licensed conveyancer does this. They handle contracts, searches, and the movement of money. MUST KNOW: Choose your conveyancer early to avoid delays. A good one is worth their weight in gold. Find an accredited one via <a href="https://www.lawsociety.org.uk/public/for-the-public/using-a-solicitor/find-a-solicitor" target="_blank" rel="noopener noreferrer">The Law Society</a>.`,
+    definition: `The essential legal work to transfer property ownership. A solicitor or licensed conveyancer does this. They handle contracts, searches, and the movement of money. MUST KNOW: Choose your conveyancer early to avoid delays. A good one is worth their weight in gold. Find an accredited one via <a href="https://www.lawsociety.org.uk/for-the-public/using-a-solicitor/find-a-solicitor" target="_blank" rel="noopener noreferrer">The Law Society</a>.`,
   },
   {
     term: 'Decision in Principle (DIP/AIP)',
-    definition: `A lender's estimate of what they might lend you, based on initial checks. Not a formal mortgage offer. MUST KNOW: Having one makes you a more attractive buyer as it shows you are serious and can likely secure the necessary funds. Read more at <a href="https://www.moneyhelper.org.uk/en/homes/buying-a-home/mortgages-in-principle" target="_blank" rel="noopener noreferrer">MoneyHelper</a>.`,
+    definition: `A lender's estimate of what they might lend you, based on initial checks. Not a formal mortgage offer. MUST KNOW: Having one makes you a more attractive buyer as it shows you are serious and can likely secure the necessary funds. Read more at <a href="https://www.moneyhelper.org.uk/en/homes/buying-a-home/agreement-in-principle" target="_blank" rel="noopener noreferrer">MoneyHelper</a>.`,
   },
   {
     term: 'Searches',
@@ -300,7 +300,7 @@ export const glossaryData = [
   },
   {
     term: 'Mortgage Valuation vs. RICS Survey',
-    definition: `These are different! The <strong>Mortgage Valuation</strong> is for the lender to confirm the property is worth what you're borrowing. It is brief and not for you. A <strong>RICS Survey (Level 2 or 3)</strong> is for YOU. You pay for it separately to get a detailed report on the property's condition. MUST KNOW: Never rely on the lender's valuation as a condition survey. Always get your own independent survey. Find a surveyor at <a href="https://www.rics.org/consumer-guides/property/rics-find-a-surveyor-service" target="_blank" rel="noopener noreferrer">RICS</a>.`,
+    definition: `These are different! The <strong>Mortgage Valuation</strong> is for the lender to confirm the property is worth what you're borrowing. It is brief and not for you. A <strong>RICS Survey (Level 2 or 3)</strong> is for YOU. You pay for it separately to get a detailed report on the property's condition. MUST KNOW: Never rely on the lender's valuation as a condition survey. Always get your own independent survey. Find a surveyor at <a href="https://www.rics.org/uk/find-a-member/" target="_blank" rel="noopener noreferrer">RICS</a>.`,
   },
   {
     term: 'Indemnity Insurance',
