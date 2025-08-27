@@ -264,54 +264,54 @@ export const contactsData = [
 export const glossaryData = [
   {
     term: 'Freehold',
-    definition: 'Full ownership of the property and the land it sits on, for an unlimited time. You are responsible for all maintenance. Most houses are freehold. Compare with Leasehold, common for flats.',
+    definition: `Full ownership of the property and the land it sits on, for an unlimited time. You are responsible for all maintenance. Most houses are freehold. Compare with Leasehold, common for flats. For more, see <a href="https://www.moneyhelper.org.uk/en/homes/buying-a-home/freehold-and-leasehold-explained" target="_blank" rel="noopener noreferrer">MoneyHelper</a>.`,
   },
   {
     term: 'Leasehold',
-    definition: 'You own the property for a fixed period (the term of the lease) but not the land it\'s on. Common for flats. You\'ll have a landlord (the freeholder) and likely pay ground rent and service charges. GOTCHA: Check the lease length! Leases under 80 years can be hard to get a mortgage on and expensive to extend.',
+    definition: `You own the property for a fixed period (the term of the lease) but not the land it's on. Common for flats. You'll have a landlord (the freeholder) and likely pay ground rent and service charges. GOTCHA: Check the lease length! Leases under 80 years can be hard to get a mortgage on and expensive to extend. The government's <a href="https://www.gov.uk/leasehold-property" target="_blank" rel="noopener noreferrer">leasehold guide</a> is essential reading.`,
   },
   {
     term: 'Conveyancing',
-    definition: 'The essential legal work to transfer property ownership. A solicitor or licensed conveyancer does this. They handle contracts, searches, and the movement of money. MUST KNOW: Choose your conveyancer early to avoid delays. A good one is worth their weight in gold.',
+    definition: `The essential legal work to transfer property ownership. A solicitor or licensed conveyancer does this. They handle contracts, searches, and the movement of money. MUST KNOW: Choose your conveyancer early to avoid delays. A good one is worth their weight in gold. Find an accredited one via <a href="https://www.lawsociety.org.uk/public/for-the-public/using-a-solicitor/find-a-solicitor" target="_blank" rel="noopener noreferrer">The Law Society</a>.`,
   },
   {
     term: 'Decision in Principle (DIP/AIP)',
-    definition: 'A lender\'s estimate of what they might lend you, based on initial checks. Not a formal mortgage offer. MUST KNOW: Having one makes you a more attractive buyer as it shows you are serious and can likely secure the necessary funds.',
+    definition: `A lender's estimate of what they might lend you, based on initial checks. Not a formal mortgage offer. MUST KNOW: Having one makes you a more attractive buyer as it shows you are serious and can likely secure the necessary funds. Read more at <a href="https://www.moneyhelper.org.uk/en/homes/buying-a-home/mortgages-in-principle" target="_blank" rel="noopener noreferrer">MoneyHelper</a>.`,
   },
   {
     term: 'Searches',
-    definition: 'Checks your solicitor makes with various authorities. They are crucial for uncovering hidden issues. They are split into mandatory and optional searches. Mandatory searches for a mortgage lender usually include: <ul><li class="my-2 ml-4"><strong>Local Authority Search (LLC1, CON29):</strong> Reveals planning permissions, building control history, nearby road schemes, and whether the property is in a conservation area.</li><li class="my-2 ml-4"><strong>Water and Drainage Search (CON29DW):</strong> Shows who owns the sewers and whether the property is connected to public systems.</li><li class="my-2 ml-4"><strong>Environmental Search:</strong> Checks for contaminated land, flood risk, and ground stability issues.</li></ul> Optional searches depend on location and property type: <ul><li class="my-2 ml-4"><strong>Chancel Repair Liability Search:</strong> Checks if you could be liable for church roof repairs. Now rare, but cheap to check.</li><li class="my-2 ml-4"><strong>Mining Search:</strong> Essential in former mining areas to check for subsidence risk.</li></ul> GOTCHA: Searches can take weeks to come back and can reveal deal-breaking information. Your solicitor advises on what is needed.',
+    definition: `Checks your solicitor makes with various authorities. They are crucial for uncovering hidden issues. They are split into mandatory and optional searches. Mandatory searches for a mortgage lender usually include: <ul><li class="my-2 ml-4"><strong>Local Authority Search (LLC1, CON29):</strong> Reveals planning permissions, building control history, nearby road schemes, and whether the property is in a conservation area.</li><li class="my-2 ml-4"><strong>Water and Drainage Search (CON29DW):</strong> Shows who owns the sewers and whether the property is connected to public systems.</li><li class="my-2 ml-4"><strong>Environmental Search:</strong> Checks for contaminated land, flood risk, and ground stability issues.</li></ul> Optional searches depend on location and property type: <ul><li class="my-2 ml-4"><strong>Chancel Repair Liability Search:</strong> Checks if you could be liable for church roof repairs. Now rare, but cheap to check.</li><li class="my-2 ml-4"><strong>Mining Search:</strong> Essential in former mining areas to check for subsidence risk.</li></ul> GOTCHA: Searches can take weeks to come back and can reveal deal-breaking information. Your solicitor advises on what is needed.`,
   },
   {
     term: 'Enquiries',
-    definition: 'Specific questions your solicitor asks the seller\'s solicitor after reviewing the contract, TA6 form, and searches. This is where detail is crucial. Examples: "The boiler service history is missing, please provide it." or "Who is responsible for the boundary fence on the left?"',
+    definition: `Specific questions your solicitor asks the seller's solicitor after reviewing the contract, TA6 form, and searches. This is where detail is crucial. Examples: "The boiler service history is missing, please provide it." or "Who is responsible for the boundary fence on the left?"`,
   },
   {
     term: 'Exchange of Contracts',
-    definition: 'The moment the deal becomes legally binding. Solicitors swap signed contracts, you pay a deposit (usually 10%), and the completion date is set. GOTCHA: If you pull out after exchange, you lose your deposit and can be sued for other costs. There is no going back!',
+    definition: `The moment the deal becomes legally binding. Solicitors swap signed contracts, you pay a deposit (usually 10%), and the completion date is set. GOTCHA: If you pull out after exchange, you lose your deposit and can be sued for other costs. There is no going back!`,
   },
   {
     term: 'Completion',
-    definition: 'The day the money is transferred, ownership officially passes to you, and you get the keys! MUST KNOW: Completion can happen any time on the day. Don\'t expect keys at 9am sharp; it depends on the banks.',
+    definition: `The day the money is transferred, ownership officially passes to you, and you get the keys! MUST KNOW: Completion can happen any time on the day. Don't expect keys at 9am sharp; it depends on the banks.`,
   },
   {
     term: 'Stamp Duty Land Tax (SDLT)',
-    definition: 'A government tax on property purchases. The amount depends on the price and whether you are a first-time buyer. Your solicitor handles the calculation and payment on your behalf post-completion.',
+    definition: `A government tax on property purchases. The amount depends on the price and whether you are a first-time buyer. Your solicitor handles the calculation and payment on your behalf post-completion. The definitive guide is on the <a href="https://www.gov.uk/stamp-duty-land-tax" target="_blank" rel="noopener noreferrer">GOV.UK website</a>.`,
   },
   {
     term: 'Mortgage Valuation vs. RICS Survey',
-    definition: 'These are different! The <strong>Mortgage Valuation</strong> is for the lender to confirm the property is worth what you\'re borrowing. It is brief and not for you. A <strong>RICS Survey (Level 2 or 3)</strong> is for YOU. You pay for it separately to get a detailed report on the property\'s condition. MUST KNOW: Never rely on the lender\'s valuation as a condition survey. Always get your own independent survey.',
+    definition: `These are different! The <strong>Mortgage Valuation</strong> is for the lender to confirm the property is worth what you're borrowing. It is brief and not for you. A <strong>RICS Survey (Level 2 or 3)</strong> is for YOU. You pay for it separately to get a detailed report on the property's condition. MUST KNOW: Never rely on the lender's valuation as a condition survey. Always get your own independent survey. Find a surveyor at <a href="https://www.rics.org/consumer-guides/property/rics-find-a-surveyor-service" target="_blank" rel="noopener noreferrer">RICS</a>.`,
   },
   {
     term: 'Indemnity Insurance',
-    definition: 'An insurance policy to protect against a specific legal defect, e.g., lack of building regulations for an old extension. It protects the lender and you from financial loss if the issue causes problems later. GOTCHA: It\'s a sticking plaster, not a fix. The problem still exists. The seller often pays for this to push the sale through.',
+    definition: `An insurance policy to protect against a specific legal defect, e.g., lack of building regulations for an old extension. It protects the lender and you from financial loss if the issue causes problems later. GOTCHA: It's a sticking plaster, not a fix. The problem still exists. The seller often pays for this to push the sale through.`,
   },
   {
     term: 'Memorandum of Sale',
-    definition: 'A document from the estate agent confirming the agreed price and details of the buyer, seller, and their solicitors. It is not legally binding but gets the formal legal process started.',
+    definition: `A document from the estate agent confirming the agreed price and details of the buyer, seller, and their solicitors. It is not legally binding but gets the formal legal process started.`,
   },
   {
     term: 'Title Deeds',
-    definition: 'Legal documents proving ownership. Most are now digital, held by HM Land Registry. The "Title Information Document" is the modern equivalent, showing the owner and any mortgage charges.',
+    definition: `Legal documents proving ownership. Most are now digital, held by HM Land Registry. The "Title Information Document" is the modern equivalent, showing the owner and any mortgage charges. You can learn more at the <a href="https://www.gov.uk/government/organisations/land-registry" target="_blank" rel="noopener noreferrer">HM Land Registry</a> website.`,
   },
 ];
