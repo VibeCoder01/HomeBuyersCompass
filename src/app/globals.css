@@ -39,6 +39,36 @@
     --sidebar-ring: 260 75% 65%;
   }
 
+  .dark {
+    --background: 220 15% 12%;
+    --foreground: 220 10% 95%;
+    --card: 220 15% 15%;
+    --card-foreground: 220 10% 95%;
+    --popover: 220 15% 12%;
+    --popover-foreground: 220 10% 95%;
+    --primary: 260 75% 65%;
+    --primary-foreground: 220 15% 10%;
+    --secondary: 220 15% 20%;
+    --secondary-foreground: 220 10% 95%;
+    --muted: 220 15% 20%;
+    --muted-foreground: 220 10% 65%;
+    --accent: 175 75% 50%;
+    --accent-foreground: 220 15% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 15% 25%;
+    --input: 220 15% 25%;
+    --ring: 260 75% 65%;
+    --sidebar-background: 220 15% 15%;
+    --sidebar-foreground: 220 10% 95%;
+    --sidebar-primary: 260 75% 65%;
+    --sidebar-primary-foreground: 220 15% 10%;
+    --sidebar-accent: 220 15% 20%;
+    --sidebar-accent-foreground: 220 10% 95%;
+    --sidebar-border: 220 15% 25%;
+    --sidebar-ring: 260 75% 65%;
+  }
+
   .light {
     --background: 220 20% 97%;
     --foreground: 220 15% 20%;
@@ -80,23 +110,5 @@
 }
 
 .dark main {
-    --background: 220 20% 97%;
-    --foreground: 220 15% 20%;
-    --card: 0 0% 100%;
-    --card-foreground: 220 15% 20%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 20%;
-    --primary: 260 70% 55%; /* Bold Purple */
-    --primary-foreground: 0 0% 100%;
-    --secondary: 220 20% 92%;
-    --secondary-foreground: 220 15% 20%;
-    --muted: 220 20% 92%;
-    --muted-foreground: 220 10% 45%;
-    --accent: 175 80% 40%; /* Bright Teal */
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 220 20% 88%;
-    --input: 220 20% 88%;
-    --ring: 260 70% 55%;
+  @apply light;
 }
