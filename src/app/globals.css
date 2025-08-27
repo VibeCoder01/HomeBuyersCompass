@@ -78,3 +78,25 @@
     @apply bg-background text-foreground;
   }
 }
+
+.dark main {
+    --background: 220 20% 97%;
+    --foreground: 220 15% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 20%;
+    --primary: 260 70% 55%; /* Bold Purple */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 20% 92%;
+    --secondary-foreground: 220 15% 20%;
+    --muted: 220 20% 92%;
+    --muted-foreground: 220 10% 45%;
+    --accent: 175 80% 40%; /* Bright Teal */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 20% 88%;
+    --input: 220 20% 88%;
+    --ring: 260 70% 55%;
+}
