@@ -262,7 +262,7 @@ export const contactsData = [
 ];
 
 export const glossaryData = [
-  {
+    {
     term: 'Freehold',
     definition: `Full ownership of the property and the land it sits on, for an unlimited time. You are responsible for all maintenance. Most houses are freehold. Compare with Leasehold. The government's comprehensive <a href="https://www.gov.uk/government/publications/how-to-buy-a-home/how-to-buy" target="_blank" rel="noopener noreferrer">"How to buy a home" guide</a> is a great starting point.`,
   },
@@ -313,5 +313,77 @@ export const glossaryData = [
   {
     term: 'Title Deeds',
     definition: `Legal documents proving ownership. Most are now digital, held by HM Land Registry. The "Title Information Document" and "Title Plan" are the modern equivalent, showing the owner and any mortgage charges.`,
+  },
+  // From documentsData
+  {
+    term: 'AIP/DIP (Decision/Agreement in Principle)',
+    definition: 'A statement from a lender saying they will likely lend you a certain amount, based on initial checks. Not a formal mortgage offer, but strengthens your position as a buyer.',
+  },
+  {
+    term: 'TA6 - Property Information Form',
+    definition:
+      'A detailed form completed by the seller, covering everything from boundaries and disputes to planning permissions and guarantees for work done.',
+  },
+  {
+    term: 'TA10 - Fittings and Contents Form',
+    definition: 'A list completed by the seller, specifying what is included in the sale, from curtains and carpets to white goods and garden sheds. Check this carefully.',
+  },
+  {
+    term: 'Draft Contract',
+    definition: 'The initial version of the legal agreement to buy the property. Your solicitor will review this and negotiate terms on your behalf.',
+  },
+  {
+    term: 'Search Results (LLC1, CON29, CON29DW, etc.)',
+    definition:
+      'Reports from local authorities and other providers about the property, revealing planning history, restrictions, and information on local roads, drainage, and environmental risks.',
+  },
+  {
+    term: 'Mortgage Offer',
+    definition: 'The formal, legally-binding offer of a loan from your lender. It will detail the terms and any special conditions you must meet.',
+  },
+  {
+    term: 'Mortgage Deed',
+    definition: "The legal document you sign to create the mortgage on the property. It is sent to the Land Registry to register the lender's interest.",
+  },
+  {
+    term: 'TR1 - Transfer Deed',
+    definition: 'The document that legally transfers ownership of the property from the seller to you. The seller signs this before completion.',
+  },
+  {
+    term: 'SDLT5 - Stamp Duty Land Tax Certificate',
+    definition: 'Proof from HMRC that the Stamp Duty on your purchase has been filed and paid. Your solicitor cannot register you as the owner without this.',
+  },
+  {
+    term: 'Title Information Document',
+    definition: "The official proof of your ownership from HM Land Registry, received months after completion. It shows your name and the lender's mortgage charge.",
+  },
+  {
+    term: 'EPC - Energy Performance Certificate',
+    definition: 'Rates the energy efficiency of the property and gives recommendations for improvement. Sellers must provide this.',
+  },
+  // From contactsData
+  {
+    term: 'Estate Agent',
+    definition: '<ul><li class="my-2 ml-4">The first point of contact for making an offer.</li><li class="my-2 ml-4">Acts as an intermediary between you and the seller until solicitors are instructed.</li><li class="my-2 ml-4">Provides the Memorandum of Sale to both parties\' solicitors.</li><li class="my-2 ml-4">Holds the keys for release on completion day.</li></ul>',
+  },
+  {
+    term: 'Lender / Mortgage Broker',
+    definition: '<ul><li class="my-2 ml-4">Provides your Agreement in Principle (AIP/DIP).</li><li class="my-2 ml-4">Processes your formal mortgage application.</li><li class="my-2 ml-4">Arranges the mortgage valuation survey.</li><li class="my-2 ml-4">Issues the formal mortgage offer.</li></ul>',
+  },
+  {
+    term: 'Your Solicitor / Conveyancer',
+    definition: '<ul><li class="my-2 ml-4">Handles all legal aspects of the transfer of ownership.</li><li class="my-2 ml-4">Conducts searches and raises enquiries with the seller\'s solicitor.</li><li class="my-2 ml-4">Reviews all documents, including the contract and title deeds.</li><li class="my-2 ml-4">Manages the exchange of contracts and transfer of funds.</li><li class="my-2 ml-4">Files your Stamp Duty return and registers your ownership.</li></ul>',
+  },
+  {
+    term: 'RICS Surveyor',
+    definition: "<ul><li class=\"my-2 ml-4\">Conducts an independent, in-depth survey of the property's condition (Level 2 or 3).</li><li class=\"my-2 ml-4\">Provides a detailed report on any defects or issues, which is separate from the lender's valuation.</li><li class=\"my-2 ml-4\">You instruct them directly.</li></ul>",
+  },
+  {
+    term: "Seller's Solicitor",
+    definition: '<ul><li class="my-2 ml-4">Acts for the seller.</li><li class="my-2 ml-4">Prepares the draft contract pack.</li><li class="my-2 ml-4">Responds to enquiries raised by your solicitor.</li><li class="my-2 ml-4">Receives the completion funds on behalf of the seller.</li></ul>',
+  },
+  {
+    term: 'Buildings Insurer',
+    definition: '<ul><li class="my-2 ml-4">Provides a policy to cover the property structure against damage (e.g., fire, flood).</li><li class="my-2 ml-4">The policy must be in place from the moment of exchange of contracts, as the risk passes to you at that point.</li></ul>',
   },
 ];
