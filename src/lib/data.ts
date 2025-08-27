@@ -264,7 +264,7 @@ export const contactsData = [
 export const glossaryData = [
   {
     term: 'Freehold',
-    definition: `Full ownership of the property and the land it sits on, for an unlimited time. You are responsible for all maintenance. Most houses are freehold. Compare with Leasehold, common for flats. For more, see <a href="https://www.moneyhelper.org.uk/en/homes/buying-a-home/freehold-vs-leasehold-whats-the-difference" target="_blank" rel="noopener noreferrer">MoneyHelper</a>.`,
+    definition: `Full ownership of the property and the land it sits on, for an unlimited time. You are responsible for all maintenance. Most houses are freehold. Compare with Leasehold. For more, see the <a href="https://hoa.org.uk/advice/guides-for-homeowners/i-am-buying/freehold-v-leasehold/" target="_blank" rel="noopener noreferrer">HomeOwners Alliance guide</a>.`,
   },
   {
     term: 'Leasehold',
@@ -276,7 +276,7 @@ export const glossaryData = [
   },
   {
     term: 'Decision in Principle (DIP/AIP)',
-    definition: `A lender's estimate of what they might lend you, based on initial checks. Not a formal mortgage offer. MUST KNOW: Having one makes you a more attractive buyer as it shows you are serious and can likely secure the necessary funds. Read more at <a href="https://www.moneyhelper.org.uk/en/homes/buying-a-home/how-to-get-a-mortgage-in-principle" target="_blank" rel="noopener noreferrer">MoneyHelper</a>.`,
+    definition: `A lender's estimate of what they might lend you, based on initial checks. Not a formal mortgage offer. MUST KNOW: Having one makes you a more attractive buyer as it shows you are serious and can likely secure the necessary funds. Read more at the government's <a href="https://www.citizensadvice.org.uk/debt-and-money/mortgages/getting-a-mortgage/mortgages-agreements-in-principle/" target="_blank" rel="noopener noreferrer">Citizens Advice Bureau</a>.`,
   },
   {
     term: 'Searches',
