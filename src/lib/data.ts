@@ -296,7 +296,7 @@ export const glossaryData = [
   },
   {
     term: 'Stamp Duty Land Tax (SDLT)',
-    definition: `A government tax on property purchases. The amount depends on the price and whether you are a first-time buyer. Your solicitor handles the calculation and payment on your behalf post-completion. The definitive guide is on the <a href="https://www.gov.uk/stamp-duty-land-tax/residential-property-rates" target="_blank" rel="noopener noreferrer">GOV.UK website</a>.`,
+    definition: `A government tax on property purchases. The amount depends on the price and whether you are a first-time buyer. Your solicitor handles the calculation and payment on your behalf post-completion. The definitive guide is on the <a href="https://www.gov.uk/stamp-duty-land-tax/residential-property-rates" target="_blank" rel="noopener noreferrer">GOV.UK website</a>, including details on <a href="https://www.gov.uk/government/publications/stamp-duty-land-tax-relief-for-first-time-buyers/stamp-duty-land-tax-relief-for-first-time-buyers" target="_blank" rel="noopener noreferrer">first-time buyer relief</a>.`,
   },
   {
     term: 'Mortgage Valuation vs. RICS Survey',
@@ -308,7 +308,7 @@ export const glossaryData = [
   },
   {
     term: 'Memorandum of Sale',
-    definition: `A document from the estate agent confirming the agreed price and details of the buyer, seller, and their solicitors. It is not legally binding but gets the formal legal process started. Estate agents must adhere to rules on providing "material information", overseen by <a href="https://www.nationaltradingstandards.uk/news/clarification-on-material-information-project/" target="_blank" rel="noopener noreferrer">National Trading Standards</a>.`,
+    definition: `A document from the estate agent confirming the agreed price and details of the buyer, seller, and their solicitors. It is not legally binding but gets the formal legal process started. Estate agents must adhere to rules on providing "material information", overseen by <a href="https://www.nationaltradingstandards.uk/news/clarification-on-material-information-project/" target="_blank" rel="noopener noreferrer">National Trading Standards</a>. If you have issues, you can complain via <a href="https://www.tpos.co.uk/" target="_blank" rel="noopener noreferrer">The Property Ombudsman</a>.`,
   },
   {
     term: 'Title Deeds',
