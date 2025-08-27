@@ -13,7 +13,6 @@ import {
 } from '@/components/ui/sidebar';
 import {
   BookText,
-  Calculator,
   CheckSquare,
   Contact,
   Home,
@@ -31,7 +30,6 @@ const navItems = [
   { href: '/checklists', label: 'Checklists', icon: CheckSquare },
   { href: '/documents', label: 'Documents', icon: Library },
   { href: '/contacts', label: 'Contacts', icon: Contact },
-  { href: '/offer-analyzer', label: 'Offer Analyzer', icon: Calculator },
   { href: '/glossary', label: 'Glossary', icon: BookText },
 ];
 

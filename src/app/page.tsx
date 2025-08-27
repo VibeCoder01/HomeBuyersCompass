@@ -4,7 +4,6 @@ import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/ca
 import {
   ArrowRight,
   BookText,
-  Calculator,
   CheckSquare,
   Contact,
   Library,
@@ -36,12 +35,6 @@ const features = [
     description: 'Know who to contact, about what, and when.',
     href: '/contacts',
     icon: <Contact className="size-8 text-primary" />,
-  },
-  {
-    title: 'Offer Analyzer',
-    description: 'Use our AI tool to help you decide on a suitable offer price.',
-    href: '/offer-analyzer',
-    icon: <Calculator className="size-8 text-primary" />,
   },
   {
     title: 'Terms Glossary',
