@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { PageHeader } from '@/components/PageHeader';
 import { checklistData } from '@/lib/data';
 import {
@@ -17,6 +17,7 @@ const LOCAL_STORAGE_KEY = 'checklistState';
 export default function ChecklistsPage() {
   const [checkedState, setCheckedState] = useState<Record<string, boolean>>({});
 
+  // Load state from localStorage when the component mounts
   useEffect(() => {
     try {
       const storedState = localStorage.getItem(LOCAL_STORAGE_KEY);
@@ -25,23 +26,29 @@ export default function ChecklistsPage() {
       }
     } catch (error) {
       console.error('Error reading from localStorage', error);
+      // It's safe to continue with an empty state
     }
   }, []);
 
+  // Save state to localStorage whenever it changes
   useEffect(() => {
-    try {
-      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(checkedState));
-    } catch (error) {
-      console.error('Error writing to localStorage', error);
+    // We don't want to save the initial empty state on first render,
+    // only subsequent changes by the user.
+    if (Object.keys(checkedState).length > 0) {
+      try {
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(checkedState));
+      } catch (error) {
+        console.error('Error writing to localStorage', error);
+      }
     }
   }, [checkedState]);
 
-  const handleCheckboxChange = (id: string) => {
-    setCheckedState((prevState) => ({
-      ...prevState,
-      [id]: !prevState[id],
-    }));
-  };
+  const handleCheckboxChange = useCallback((id: string) => {
+    setCheckedState((prevState) => {
+      const newState = { ...prevState, [id]: !prevState[id] };
+      return newState;
+    });
+  }, []);
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -61,10 +68,10 @@ export default function ChecklistsPage() {
                 {phase.items.map((item, itemIndex) => {
                   const id = `${phase.phase}-${itemIndex}`;
                   return (
-                    <div key={itemIndex} className="flex items-center space-x-3">
+                    <div key={id} className="flex items-center space-x-3">
                       <Checkbox
                         id={id}
-                        checked={!!checkedState[id]}
+                        checked={checkedState[id] || false}
                         onCheckedChange={() => handleCheckboxChange(id)}
                       />
                       <Label htmlFor={id} className="text-base font-normal text-muted-foreground">
