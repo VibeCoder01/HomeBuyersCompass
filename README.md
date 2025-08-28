@@ -6,21 +6,21 @@ This app breaks down the journey into understandable phases, provides essential 
 
 ## Key Features
 
-- **Interactive Timeline**: Visualizes the entire home-buying journey, from initial financial preparation to post-completion admin, with typical durations for each phase.
-- **Phase-by-Phase Checklists**: Actionable to-do lists for each stage of the process. Progress is saved in the browser's local storage so users can pick up where they left off.
-- **In-Depth Glossary**: A comprehensive A-Z glossary explaining property jargon, key documents, and the roles of professionals involved. Each entry is enriched with "must-know" facts, potential "gotchas," and links to definitive external resources like GOV.UK and RICS.
+-   **Interactive Timeline**: Visualizes the entire home-buying journey, from initial financial preparation to post-completion admin, with typical durations for each phase.
+-   **Phase-by-Phase Checklists**: Actionable to-do lists for each stage of the process. Progress is saved in the browser's local storage so users can pick up where they left off.
+-   **In-Depth Glossary**: A comprehensive A-Z glossary explaining property jargon, key documents, and the roles of professionals involved. Each entry is enriched with "must-know" facts, potential "gotchas," and links to definitive external resources like GOV.UK and RICS.
 
 ## Tech Stack
 
 This project is built with a modern, performant, and type-safe stack:
 
-- **Framework**: [Next.js](https://nextjs.org/) (App Router)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **UI**: [React](https://react.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Component Library**: [ShadCN UI](https://ui.shadcn.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **AI Integration**: [Genkit](https://firebase.google.com/docs/genkit) (for potential future AI-powered features)
+-   **Framework**: [Next.js](https://nextjs.org/) (App Router)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **UI**: [React](https://react.dev/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **Component Library**: [ShadCN UI](https://ui.shadcn.com/)
+-   **Icons**: [Lucide React](https://lucide.dev/)
+-   **AI Integration**: [Genkit](https://firebase.google.com/docs/genkit) (for potential future AI-powered features)
 
 ## Getting Started
 
@@ -43,9 +43,9 @@ To get the project up and running on your local machine, follow these steps:
 
 ## Project Structure
 
-- `src/app/`: Contains the main pages of the application (Dashboard, Timeline, Checklists, Glossary), following the Next.js App Router structure.
-- `src/components/`: Home to reusable React components, including the UI components from ShadCN.
-- `src/lib/`: Contains utility functions (`utils.ts`) and the core application data (`data.ts`) that powers the timeline, checklists, and glossary.
-- `public/`: For static assets that don't need to be processed by the build pipeline.
-- `tailwind.config.ts`: The configuration file for Tailwind CSS, where the app's theme and design tokens are defined.
-- `next.config.ts`: Configuration for the Next.js framework.
+-   `src/app/`: Contains the main pages of the application (Dashboard, Timeline, Checklists, Glossary), following the Next.js App Router structure.
+-   `src/components/`: Home to reusable React components, including the UI components from ShadCN.
+-   `src/lib/`: Contains utility functions (`utils.ts`) and the core application data (`data.ts`) that powers the timeline, checklists, and glossary.
+-   `public/`: For static assets that don't need to be processed by the build pipeline.
+-   `tailwind.config.ts`: The configuration file for Tailwind CSS, where the app's theme and design tokens are defined.
+-   `next.config.js`: Configuration for the Next.js framework.
